@@ -15,9 +15,10 @@ if [ $# -eq 0 ];then
 	open -a Safari
 else
 	URL_attribute="--url"
-	if [ $1 == $URL_attribute ];then 
+	if [ $# -eq 2 ] && [ $1 == $URL_attribute ];then 
+		URL=$(echo $2|sed 's/http:\/\///g; s/https:\/\///g')
 		echo "[++++++++++++ You are opening Safari with a personalized URL... goodbye! ++++++++++++]"
-		open -a Safari https://$2 
+		open -a Safari https://$URL
 	else
 		complete_query_string="https://www.google.com/search?q=" #format: https://www.google.com/search?q=something+to+search+on+Google
 		partial_query_string=""
