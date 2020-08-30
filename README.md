@@ -16,7 +16,7 @@
 3. 
     1. ```safari.sh something to search on Google``` ----> find "something to search on Google" on Google 
 
-    2. ```safari.sh "Where there's a will there's a way (proverb)"``` ----> find "Where there's a will there's a way proverb" on Google 
+    2. ```safari.sh "Where there's a will there's a way (proverb)"``` ----> find "Where there's a will there's a way (proverb)" on Google 
 
 
 
