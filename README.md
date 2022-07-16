@@ -11,7 +11,7 @@
     1. `safari.sh something to search on Google` ----> find "something to search on Google" on Google 
     2. `safari.sh "Where there's a will there's a way (proverb)"` ----> find "Where there's a will there's a way (proverb)" on Google 
 
-# Extra: support for other web browsers
+# Support for other web browsers
 If you usually use another web browser on your Mac, you can easily adapt my script by changing `BROWSER_PATH` variable with the correct web browser installation path. For example:
 
 ## Google Chrome
@@ -22,3 +22,6 @@ If you usually use another web browser on your Mac, you can easily adapt my scri
 
 ## Opera
 `BROWSER_PATH="/Applications/Opera.app"`
+
+# Extra
+See https://github.com/antoniolanza1996/scripts_and_dotfiles/tree/main/bash_scripts for other useful bash scripts for MacOS.
